@@ -30,7 +30,7 @@ const loop = setInterval(() => {
         mario.style.animation = 'none';
         mario.style.bottom = `${marioPosition}px`;
 
-        mario.src = 'assets/imgs/game-over.png';
+        mario.src = './img/game-over.png';
         mario.style.width = '70px';
         mario.style.marginLeft = '35px';
 
@@ -50,7 +50,7 @@ const restart = () => {
     pipe.style.animation = 'pipe-animations 1.5s infinite linear';
     pipe.style.left = ``;
 
-    mario.src = 'assets/imgs/mario.gif';
+    mario.src = './img/mario.gif';
     mario.style.width = '130px';
     mario.style.bottom = '0px';
     mario.style.marginLeft = '';
@@ -72,7 +72,7 @@ const restart = () => {
             mario.style.animation = 'none';
             mario.style.bottom = `${marioPosition}px`;
 
-            mario.src = 'assets/imgs/game-over.png';
+            mario.src = './img/game-over.png';
             mario.style.width = '70px';
             mario.style.marginLeft = '35px';
 
