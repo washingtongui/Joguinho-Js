@@ -17,7 +17,7 @@
 .pipe {
     position: absolute;
     bottom: 0;
-    width: 60px;
+    width: 50px;
     animation: pipe-animations 1.5s infinite linear;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .jump {
-    animation: mario-animation 500ms ease-out;
+    animation: mario-animation 600ms ease-out;
 }
 
 .cloud {
@@ -62,7 +62,7 @@
 
 @keyframes pipe-animations {
     from {
-        right: -80px;
+        right: -70px;
     }
 
     to {
@@ -76,15 +76,15 @@
     }
 
     40% {
-        bottom: 120px
+        bottom: 140px
     }
 
     50% {
-        bottom: 120px;
+        bottom: 140px;
     }
 
     60% {
-        bottom: 120px
+        bottom: 140px
     }
 
     100% {
@@ -94,7 +94,7 @@
 
 @keyframes cloud {
     from {
-        right: -550px;
+        right: -650px;
     }
 
     to {
@@ -104,7 +104,7 @@
 
 @media (max-width: 620px) {
     .mario {
-        width: 110px;
+        width: 70px;
         position: absolute;
         bottom: 0px;
     }
@@ -112,7 +112,7 @@
     .pipe {
         position: absolute;
         bottom: 0;
-        width: 50px;
+        width: 40px;
         animation: pipe-animations 1s infinite linear;
     }
 }
